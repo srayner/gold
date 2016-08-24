@@ -17,4 +17,13 @@ class BookTest extends TestCase
         
         $this->assertEquals($expected, $book->getAuthor());
     }
+    
+    public function testTitleProperty()
+    {
+        $book = new Book();
+        $expected = 'How to use PHPUnit';
+        $book->setTitle($expected);
+        
+        $this->assertEquals($expected, $book->getTitle());
+    }
 }
