@@ -1,0 +1,16 @@
+{
+    "name": "srayner/gold",
+    "description": "Sample project",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "php",
+        "sample"
+    ],
+    "homepage": "http://github.com/srayner/gold",
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
