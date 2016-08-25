@@ -14,7 +14,7 @@ class Book
     
     public function getAuthor()
     {
-        return $this->author;
+        return true;
     }
     
     public function setTitle($title)
